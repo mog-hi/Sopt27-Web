@@ -62,6 +62,3 @@ const addReposToCard = (repos) => {
         reposElement.appendChild(element);
     });
 };
-
-// 실행
-getUser("Hyun-juhee");
