@@ -1,0 +1,17 @@
+.main-header {
+    display: flex;
+    height: 45px;
+    padding: 12px;
+    font-size: 14px;
+    .empty {
+        flex: 1;
+    }
+    &-icon {
+        height: 100%;
+        margin-right: 12px;
+    }
+    &__nav {
+    }
+    .right-content {
+    }
+}
