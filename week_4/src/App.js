@@ -1,10 +1,10 @@
 import './App.scss';
-import {BrowswerRouter as Router, Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Main from './pages/main/Main';
 import Member from './pages/member/Member';
 import MainHeader from './components/header/MainHeader';
 
-const App = () => {
+function App() {
   return (
     <Router>
       <div className="App">

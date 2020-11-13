@@ -5,13 +5,17 @@ import { useEffect, useState } from 'react';
 import Loading from '../../components/loading/Loading';
 
 import { getMembersAPI } from '../../lib/api/memberAPI';
-const MemberList = ({ history, match }) => {
+
+
+function MemberList({ history, match }) {
     const [members, setMembers] = useState([]);
     const [loading, setLoading] = useState(true);
+
     useEffect(() => {
         (async () => {
             const result = await getMembersAPI();
             setMembers(result);
+            setTimeout(() => setLoading(false), 800); // 테스트용으로 setTimeout을 실행!
         })();
     }, []);
 
@@ -48,4 +52,4 @@ const MemberList = ({ history, match }) => {
     }
 }
 
-export default MemberList; 
+export default MemberList;

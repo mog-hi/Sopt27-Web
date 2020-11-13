@@ -2,7 +2,8 @@ import './MainHeader.scss';
 import MenuIcon from '../../assets/icons/mdi_dehaze.svg';
 import Button from '../button/Button';
 
-const MainHeader = ({history}) => {
+function MainHeader({ history }) {
+    // console.log(history);
     return (
         <header className="main-header">
             <img className="main-header-icon" src={MenuIcon} alt="menu icon"/>
@@ -21,4 +22,6 @@ const MainHeader = ({history}) => {
         </header>
     );
 }
+
+
 export default MainHeader;
