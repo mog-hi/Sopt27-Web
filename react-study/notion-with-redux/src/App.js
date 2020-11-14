@@ -1,5 +1,5 @@
 import './App.scss';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Main from './pages/main/Main';
 import Member from './pages/member/Member';
 import MainHeader from './components/header/MainHeader';
@@ -11,7 +11,6 @@ function App() {
         <Route component={MainHeader}/>
         <Switch>
           <Route exact path="/" component={Main}/>
-          {/* 모든 memebers/로 시작하는 경로는 Member component로 */}
           <Route path="/members" component={Member} />
           <Route path="*">
             <h1> 404 NOT FOUND </h1>
@@ -19,7 +18,7 @@ function App() {
         </Switch>
       </div>
     </Router>
-  )
+  );
 }
 
 export default App;
