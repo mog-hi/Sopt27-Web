@@ -1,8 +1,21 @@
 # Sopt27-Web
-- react-study : 리액트 심화 스터디
-- week + n: 세미나, 과제
+Sopt 27기 웹파트 과제 
 
 ```
 yarn install
 yarn start
 ```
+
+## 🍰 week 2
+- git profile finder
+- modal
+- dark mode toggle
+
+## 🍰 week 3
+- create-react-app을 이용해서 react app 만들기
+- 컴포넌트 생성
+- axios를 통한 api연결
+- react app으로 git profile finder 구현
+
+## 🍰 week 4
+- Notion App 만들기
