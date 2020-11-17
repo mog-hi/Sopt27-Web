@@ -3,7 +3,6 @@
 - week + n: 세미나, 과제
 
 ```
-npx create-react-app my-app
-cd my-app
-npm start
+yarn install
+yarn start
 ```
