@@ -7,6 +7,8 @@ yarn start
 ```
 
 ## 🍰 week 2
+![](https://github.com/Hyun-juhee/Sopt27-Web/blob/master/images/gitProfileFinder.PNG)
+![](https://github.com/Hyun-juhee/Sopt27-Web/blob/master/images/modal.gif)
 - git profile finder
 - modal
 - dark mode toggle
