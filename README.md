@@ -7,7 +7,8 @@ yarn start
 ```
 
 ## 🍰 week 2
-![](https://github.com/Hyun-juhee/Sopt27-Web/blob/master/images/gitProfileFinder.PNG)
+<img src = "https://github.com/Hyun-juhee/Sopt27-Web/blob/master/images/gitProfileFinder.PNG" width="500px">
+
 ![](https://github.com/Hyun-juhee/Sopt27-Web/blob/master/images/modal.gif)
 - git profile finder
 - modal
