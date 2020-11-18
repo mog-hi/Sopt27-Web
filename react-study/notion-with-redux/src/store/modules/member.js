@@ -1,22 +1,21 @@
-// 액션 타입 설정
+// action
 const SET_MEMBERS = 'member/SET_MEMBERS';
 
-// 액션 생성 함수 - export
+// action creator - export
 export const setMembersToStore = members => ({
   type: SET_MEMBERS,
   members,
 });
 
-// 초깃값 설정
-const initialState = {
+// 초기 상태값 설정
+const initState = {
   members: [],
 };
 
 // reducer 함수 정의 - export default
-export default function reducer(state = initialState, action) {
+export default function reducer(state = initState, action) {
   switch (action.type) {
     case SET_MEMBERS:
-      console.log('a :', action);
       return {
         ...state,
         members: action.members,

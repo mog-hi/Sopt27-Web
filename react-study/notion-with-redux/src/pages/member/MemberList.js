@@ -3,19 +3,29 @@ import Button from '../../components/button/Button';
 import Card from '../../components/card/Card';
 import { useEffect, useState } from 'react';
 import Loading from '../../components/loading/Loading';
-
 import { getMembersAPI } from '../../lib/api/memberAPI';
 
+// member reducer dispatch 정의 및 호출
+// redux 사용
+import { setMembersToStore } from '../../store/modules/member';
+import { useDispatch } from 'react-redux';
 
 function MemberList({ history, match }) {
     const [members, setMembers] = useState([]);
     const [loading, setLoading] = useState(true);
+
+    // dispatch 정의
+    const dispatch = useDispatch();
+    const saveMembersToStore = data => dispatch(setMembersToStore(data));
 
     useEffect(() => {
         (async () => {
             const result = await getMembersAPI();
             setMembers(result);
             setTimeout(() => setLoading(false), 800); // 테스트용으로 setTimeout을 실행!
+                    
+            // store에 저장
+            saveMembersToStore(result);
         })();
     }, []);
 
