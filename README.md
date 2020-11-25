@@ -22,3 +22,12 @@ yarn start
 
 ## 🍰 week 4
 - Notion App 만들기
+
+## 🍰 week 5
+- 디자인, 클라이언트 합동 세미나
+- sopt-info-page 만들기 
+- [sopt-info-page github](https://github.com/Sopt-Info-Page/Web-Client)
+
+## 🍰 week 6
+- week 4에서 만든 Notion App 발전
+- 서버와 CRUD 통신
