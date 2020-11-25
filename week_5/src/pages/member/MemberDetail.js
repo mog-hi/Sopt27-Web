@@ -1,6 +1,6 @@
 import './MemberDetail.scss';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 
 import Button from '../../components/button/Button';
 import Loading from '../../components/loading/Loading';
@@ -34,7 +34,7 @@ function MemberDetail({ match }) {
         })();
     }, [match.params.id]);
 
-    const onChageInputs = async (evt) => {
+    const onChageInputs = useCallback(async (evt) => {
         const {name, value} = evt.target;
         try {
             const member = {
@@ -52,7 +52,8 @@ function MemberDetail({ match }) {
         } catch (e) {
             console.log(e)
         }
-    }
+    }, [memberState]);
+
     const memberElement = () => (
         <div className="member-detail">
             <div className="member-detail__button-area">
