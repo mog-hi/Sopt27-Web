@@ -26,3 +26,8 @@ export {
     getMembersAPI,
     getMemberAPI
 }; 
+const api  = {
+    getMembersAPI,
+    getMemberAPI
+}; 
+export default api;
