@@ -29,5 +29,6 @@ yarn start
 - [sopt-info-page github](https://github.com/Sopt-Info-Page/Web-Client)
 
 ## 🍰 week 6
+![](https://github.com/Hyun-juhee/Sopt27-Web/blob/master/images/notion-app.gif)
 - week 4에서 만든 Notion App 발전
 - 서버와 CRUD 통신
