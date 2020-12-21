@@ -34,6 +34,7 @@ function MemberDetail({ match }) {
         })();
     }, [match.params.id]);
 
+    /** */
     const onChageInputs = useCallback(async (evt) => {
         const {name, value} = evt.target;
         try {
