@@ -56,7 +56,7 @@ function MemberList({ history, match }) {
                         <Button text="Filter" textColor="#777"></Button>
                         <Button text="Sort" textColor="#777"></Button>
                         <Button text="Search" textColor="#777" icon="search"></Button>
-                        <Button text="..." textColor="#777"></Button>
+                        <Button text=" .." textColor="#777"></Button>
                     </div>
                     <hr />
                     <div className="member-list-content-wrapper">
