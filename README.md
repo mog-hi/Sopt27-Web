@@ -31,4 +31,4 @@ yarn start
 ## 🍰 week 6
 ![](https://github.com/Hyun-juhee/Sopt27-Web/blob/master/images/notion-app.gif)
 - week 4에서 만든 Notion App 발전
-- 서버와 CRUD 통신
+- 서버 CRUD 통신
